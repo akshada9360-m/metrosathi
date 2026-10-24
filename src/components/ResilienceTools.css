@@ -1,0 +1,414 @@
+.resilience-column {
+  display: grid;
+  max-width: 900px;
+  gap: 14px;
+}
+
+.tool-intro {
+  margin: 0 0 13px;
+  color: #85869a;
+  font-size: 9px;
+  line-height: 1.65;
+}
+
+.report-form {
+  display: grid;
+  gap: 11px;
+}
+
+.tool-field {
+  display: grid;
+  gap: 6px;
+}
+
+.tool-field > span {
+  color: #606176;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.tool-field > span small {
+  float: right;
+  color: #999aaa;
+  font-weight: 400;
+}
+
+.tool-field input,
+.tool-field select,
+.tool-field textarea {
+  width: 100%;
+  min-height: 37px;
+  padding: 8px 10px;
+  color: #505166;
+  font: inherit;
+  font-size: 10px;
+  background: #fbfbfd;
+  border: 1px solid #ececf3;
+  border-radius: 7px;
+}
+
+.tool-field textarea {
+  resize: vertical;
+}
+
+.report-form .primary-button,
+.offline-panel > .primary-button {
+  justify-self: start;
+  color: #fff;
+  background: #6962d8;
+}
+
+.tool-status {
+  margin: 10px 0 0;
+  color: #5b806f;
+  font-size: 9px;
+  line-height: 1.5;
+}
+
+.community-report-list {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.community-report-list li {
+  display: grid;
+  gap: 5px;
+  padding: 11px 0;
+  border-top: 1px solid #efeff4;
+}
+
+.report-row-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9px;
+}
+
+.report-row-heading strong {
+  color: #4b4c61;
+  font-size: 10px;
+}
+
+.report-state {
+  padding: 4px 7px;
+  color: #876e3b;
+  font-size: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #fff7e8;
+  border-radius: 12px;
+}
+
+.report-state.expired {
+  color: #88899a;
+  background: #f0f0f4;
+}
+
+.report-state.confirmed {
+  color: #4e7b68;
+  background: #e9f6ef;
+}
+
+.report-area,
+.community-report-list time {
+  color: #9192a3;
+  font-size: 8px;
+}
+
+.community-report-list p {
+  color: #68697d;
+  font-size: 9px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.report-caveat,
+.privacy-note {
+  margin: 11px 0 0;
+  color: #9697a8;
+  font-size: 8px;
+  line-height: 1.6;
+}
+
+.festival-panel {
+  max-width: 900px;
+  padding: 20px;
+}
+
+.festival-controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.event-destination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 13px 0;
+  padding: 11px;
+  color: #655ed1;
+  background: #f3f2ff;
+  border: 1px solid #e8e6ff;
+  border-radius: 8px;
+}
+
+.event-destination > span {
+  font-size: 18px;
+}
+
+.event-destination strong,
+.event-destination small {
+  display: block;
+}
+
+.event-destination strong {
+  color: #4b4c61;
+  font-size: 10px;
+}
+
+.event-destination small {
+  margin-top: 4px;
+  color: #9293a5;
+  font-size: 8px;
+}
+
+.festival-result-list {
+  display: grid;
+  gap: 8px;
+}
+
+.festival-result {
+  padding: 13px;
+  border: 1px solid #ededf3;
+  border-radius: 9px;
+}
+
+.top-festival-result {
+  border-color: #dcd9ff;
+}
+
+.festival-result-head {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.festival-rank {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 auto;
+  place-items: center;
+  color: #6861d1;
+  font-size: 9px;
+  font-weight: 700;
+  background: #f0efff;
+  border-radius: 7px;
+}
+
+.festival-result-head > div:nth-child(2) {
+  display: grid;
+  flex: 1;
+  gap: 3px;
+}
+
+.festival-result-head strong {
+  color: #46475c;
+  font-size: 10px;
+}
+
+.festival-result-head small {
+  color: #9596a7;
+  font-size: 8px;
+}
+
+.festival-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  margin: 11px 0 8px;
+}
+
+.festival-metrics span {
+  padding: 7px;
+  color: #8a8b9d;
+  font-size: 7px;
+  line-height: 1.5;
+  background: #f8f8fb;
+  border-radius: 5px;
+}
+
+.festival-metrics strong {
+  display: block;
+  margin-top: 3px;
+  color: #5b5c70;
+  font-size: 8px;
+}
+
+.crowd-sample {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #858699;
+  font-size: 8px;
+}
+
+.crowd-sample strong {
+  color: #66677b;
+  text-transform: capitalize;
+}
+
+.crowd-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+.crowd-confidence {
+  margin-top: 5px;
+  color: #999aaa;
+  font-size: 7px;
+}
+
+.crowd-low { background: #61ac8c; }
+.crowd-moderate { background: #e3b35b; }
+.crowd-high { background: #d77878; }
+
+.festival-tradeoff {
+  margin: 7px 0;
+  color: #848598;
+  font-size: 8px;
+  line-height: 1.55;
+}
+
+.text-link-button {
+  padding: 4px 0;
+  color: #615ad0;
+  font-size: 8px;
+  font-weight: 700;
+  background: transparent;
+  border: 0;
+}
+
+.text-link-button span {
+  padding-left: 5px;
+}
+
+.settings-grid {
+  display: grid;
+  max-width: 930px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 13px;
+}
+
+.settings-panel,
+.offline-panel,
+.emergency-panel {
+  padding: 18px;
+}
+
+.settings-panel .panel-heading h2,
+.offline-panel .panel-heading h2,
+.emergency-panel .panel-heading h2 {
+  font-size: 16px;
+}
+
+.settings-language {
+  margin: 18px 0 8px;
+}
+
+.settings-panel .preference-row {
+  min-height: 54px;
+}
+
+.settings-reset {
+  margin-top: 13px;
+}
+
+.offline-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+
+.offline-dot.online { background: #59a982; }
+.offline-dot.offline { background: #dc7777; }
+
+.offline-current {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 11px;
+  padding: 10px;
+  background: #f8f8fc;
+  border-radius: 7px;
+}
+
+.offline-current strong {
+  color: #4b4c60;
+  font-size: 10px;
+}
+
+.offline-current span {
+  color: #9697a8;
+  font-size: 8px;
+}
+
+.offline-panel .preference-row {
+  margin-top: 9px;
+  border-bottom: 1px solid #f0f0f5;
+}
+
+.saved-pack-list {
+  display: grid;
+  gap: 7px;
+  margin-top: 13px;
+  padding-top: 11px;
+  border-top: 1px solid #efeff4;
+}
+
+.saved-pack-list > strong {
+  color: #626377;
+  font-size: 9px;
+}
+
+.saved-pack-list > span,
+.saved-pack-list > p {
+  color: #68697e;
+  font-size: 9px;
+}
+
+.saved-pack-list small {
+  color: #999aaa;
+  font-size: 8px;
+}
+
+.emergency-panel {
+  grid-column: 1 / -1;
+}
+
+.emergency-panel .guide-note {
+  margin-top: 10px;
+}
+
+@media (max-width: 760px) {
+  .festival-controls,
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .emergency-panel {
+    grid-column: auto;
+  }
+
+  .festival-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .festival-metrics span {
+    font-size: 8px;
+  }
+}

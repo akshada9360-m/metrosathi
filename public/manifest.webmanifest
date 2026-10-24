@@ -1,0 +1,17 @@
+{
+  "name": "Metro Saathi",
+  "short_name": "Metro Saathi",
+  "description": "A demo passenger companion for Pune Metro journeys.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#292448",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

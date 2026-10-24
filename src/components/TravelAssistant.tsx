@@ -1,0 +1,1 @@
+export { TravelAssistant } from './TravelAssistantView'
